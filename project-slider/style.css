@@ -1,0 +1,45 @@
+.size {
+    height: 600px;
+    width: 300px;
+}
+
+.img-size {
+    height: 500px;
+}
+
+.stressed {
+    color: #a3afe9;
+}
+
+.swiper-button-next:hover,.swiper-button-prev:hover {
+    background: #fff;
+    box-shadow: 0 2px 0 0 rgba(44,29,136,0.20);
+}
+
+.swiper-button-next:before {
+    background-image: url(https://neurocrm.ru/wp-content/themes/neurocrm/images/static/icons/arrow-next.svg)
+}
+
+.swiper-button-next:after {
+    box-shadow: 0 0 35px 5px rgba(44,29,136,0.35);
+}
+.swiper-button-next:hover:after {
+    box-shadow: 0 0 45px 5px rgba(44,29,136,0.35);
+}
+@media (min-width: 992px) {
+    .b-f .swiper-button-next, .b-f .swiper-button-prev {
+      background: linear-gradient(45deg,#00cbff,#a2e9ff,#00cbff,#a2e9ff);
+      border: 1px solid rgba(255,255,255,.5);
+      box-shadow: 0 2px 0 0 rgba(16,167,206,.75);
+    }
+    .swiper-button-next:hover:after, .b-f .swiper-button-prev:hover:after {
+      box-shadow: 0 0 45px 5px rgba(0,201,253,.5);
+    }
+  }
+
+
+
+
+
+
+
